@@ -1,0 +1,80 @@
+@import 'https://fonts.googleapis.com/css?family=Oswald';
+@import 'https://fonts.googleapis.com/css?family=Covered+By+Your+Grace';
+
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+
+body {
+	background-color: #050505;
+	font-family: 'Oswald';
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.container {
+	text-align: center;
+	width: 380px;
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+	color: white;
+	font-size: 42px;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	border-top: 3px solid white;
+}
+
+#icon {
+	color: white;
+	font-size: 150px;
+	padding-bottom: 25px;
+}
+
+#loc{
+	color: white;
+	padding-bottom: 25px;
+}
+
+#bottom-bar {
+	background-color: white;
+	font-weight: bold;
+	color: #050505;
+	font-size: 21px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+#temp {
+	padding-left: 15px;
+	float: left;
+	cursor: pointer;
+}
+
+.unitF{
+	color: firebrick;
+}
+
+.unitC {
+	color: darkcyan;
+}
+
+#weather-type {
+	padding-right: 15px;
+	float: right;
+}
+
+.convertText {
+	margin-top: 10px;
+	font-family: 'Oswald';
+	font-size: 15px;
+	color: rgba(255,255,255, .4);
+}
