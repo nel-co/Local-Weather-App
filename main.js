@@ -10,7 +10,7 @@ var showPosition = function (position) {
 }
 
 function updateByGeo(lat, lon) {
-	var url = 'http://api.openweathermap.org/data/2.5/weather?' + APPID +
+	var url = 'https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?' + APPID +
 		"&lat=" + lat +
 		"&lon=" + lon;
 	sendRequest(url);
